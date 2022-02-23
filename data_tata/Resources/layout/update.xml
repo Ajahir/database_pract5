@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+    
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#090E21"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+        android:background="#0A1D37"
+        android:layout_height = "52.5dp"
+        tools:ignore="MissingDimension"
+         >
+        <TextView
+            android:text = "SQLiteCrudExample"
+            android:layout_marginTop="15dp"
+            android:layout_width = "wrap_content"
+            android:layout_height = "30.0dp"
+            android:textSize="40px"
+            android:layout_weight = "3"
+           
+            android:inputType="text"
+         />
+
+        
+</LinearLayout>
+    <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:background="#1D1E33"
+        android:layout_height = "52.5dp"
+        tools:ignore="MissingDimension"
+       
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textSize="20dp"
+            android:text="Name:-"/>
+        <EditText
+            android:layout_width="match_parent"
+           android:backgroundTint="#ffffff"
+            android:id="@+id/updatename"
+            android:layout_height="match_parent"/>
+        
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+        android:gravity="center"
+         android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+        android:background="#1D1E33"
+        android:layout_height = "52.5dp"
+        tools:ignore="MissingDimension"
+      
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Surname:-"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:backgroundTint="#ffffff"
+            android:id="@+id/updateSurname"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+         android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+        android:background="#1D1E33"
+        android:layout_height = "52.5dp"
+        tools:ignore="MissingDimension"
+     
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Department:-"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:backgroundTint="#ffffff"
+            android:id="@+id/updateDepartment"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+        android:gravity="center"
+         android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+        android:background="#1D1E33"
+        android:layout_height = "52.5dp"
+        tools:ignore="MissingDimension"
+ 
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textSize="20dp"
+            android:text="Salary:-"/>
+        <EditText
+            android:layout_width="match_parent"
+           android:backgroundTint="#ffffff"
+            android:id="@+id/updateSalary"
+            android:layout_height="match_parent"/>
+        
+
+
+
+    </LinearLayout>
+    <Button
+        android:text="Update"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#EB1455"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/updatebtn" />
+
+
+
+</LinearLayout>

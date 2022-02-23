@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#090E21"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+   >
+
+
+    <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+        android:background="#0A1D37"
+        android:layout_height = "52.5dp"
+        tools:ignore="MissingDimension"
+         >
+        <TextView
+            android:text = "SQLiteCrudExample"
+            android:layout_marginTop="15dp"
+            android:layout_width = "wrap_content"
+            android:layout_height = "30.0dp"
+            android:textSize="40px"
+            android:layout_weight = "3"
+          
+            android:inputType="text"
+         />
+
+        <ImageView
+            android:layout_width = "wrap_content"
+            android:layout_height = "52.5dp"
+            android:src = "@android:drawable/ic_menu_add"
+            android:layout_gravity = "right"
+            android:id = "@+id/imageView1"
+            android:layout_marginTop="20dp"
+            android:contentDescription="description" 
+            />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+       
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView1" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#090E21"
+    
+   android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+   >
+
+   <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+      android:id="@+id/linearLayout1"
+        android:layout_height = "wrap_content"
+        tools:ignore="MissingDimension"
+         ><LinearLayout
+        android:orientation = "vertical"
+        android:layout_width = "wrap_content"
+        android:weightSum = "3"
+      android:layout_marginTop="15dp"
+        android:layout_height = "wrap_content"
+        tools:ignore="MissingDimension"
+         >
+           <LinearLayout
+        android:orientation = "horizontal"
+        android:layout_width = "wrap_content"
+        android:weightSum = "3"
+                
+      
+        android:layout_height = "wrap_content"
+        tools:ignore="MissingDimension">
+        <TextView
+                 android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameview"/>
+         <TextView
+                    android:layout_marginLeft="12dp"
+                     
+                    android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/surnameview"/></LinearLayout>
+         <TextView
+                
+                android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/departmentview"/>
+         <TextView
+                 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/salaryview"/></LinearLayout>
+        <LinearLayout
+        android:orientation = "vertical"
+        android:layout_width = "match_parent"
+        android:weightSum = "3"
+      android:layout_marginTop="8dp"
+        android:layout_height = "wrap_content"
+        tools:ignore="MissingDimension"
+         >
+            <Button
+                android:text="Edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0A1D37"
+                android:layout_gravity="right"
+                android:id="@+id/update" />
+            <Button
+                android:text="Delete"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#0A1D37"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/delete" />
+           </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
